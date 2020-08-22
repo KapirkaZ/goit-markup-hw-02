@@ -41,6 +41,11 @@ ul {
   color: var(--primary-text-color);
 }
 
+/* Подстветка текущей страницы */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 /* Hero */
 
 .hero-title {
@@ -69,4 +74,11 @@ ul {
 
 .feature-list .link {
   color: var(--primary-text-color);
+}
+
+/* Кнопка */
+
+.button {
+  color: var(--main-title-text-color);
+  background-color: var(--accent-color);
 }
