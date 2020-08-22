@@ -5,6 +5,7 @@
   --main-title-text-color: #ffffff;
   --button-color-secondary: #212121;
   --button-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
 }
 
 body {
@@ -81,9 +82,9 @@ button {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--footer-bg-color);
 }
 
 /* Section */
@@ -102,7 +103,23 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
+.section-links {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
@@ -164,4 +181,38 @@ button {
 .button.link:focus {
   color: var(--main-title-text-color);
   background-color: var(--accent-color);
+}
+
+/* Фуутер */
+.page-footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  color: var(--main-title-text-color);
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: var(--accent-color);
+}
+
+.adres {
+  color: var(--main-title-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.adres-nav .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
 }
