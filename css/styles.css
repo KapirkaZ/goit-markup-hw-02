@@ -31,6 +31,29 @@ ul {
 
 /* вторичный цвет фона #F5F4FA */
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+  margin-bottom: 94;
+  padding-left: 15;
+  padding-right: 15;
+}
+
+/* Page header */
+
+.page-header {
+  background-color: #fff;
+}
+
+/* Main nav */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* Logo */
 
 .logo {
@@ -61,6 +84,10 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  display: block;
+  padding-top: 32;
+  padding-bottom: 32;
 }
 
 .site-info .link {
@@ -68,12 +95,46 @@ button {
   text-decoration: none;
 }
 
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0px;
+}
+
 /* Подстветка текущей страницы */
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
+.site-info .list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-info {
+  display: flex;
+}
+
+.site-info .item {
+  margin-right: 50px;
+}
+
+.site-info .item:last-child {
+  margin-left: 0px;
+}
 /* Hero */
+
+.hero {
+  text-align: center;
+  background-color: var(--footer-bg-color);
+}
 
 .hero-title {
   color: var(--main-title-text-color);
@@ -84,7 +145,9 @@ button {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--footer-bg-color);
+
+  margin-top: 0;
+  margin-bottom: 30;
 }
 
 /* Section */
@@ -105,6 +168,9 @@ button {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
+  margin-bottom: 94px;
+  margin-top: 0px;
 }
 
 .section-links {
@@ -133,6 +199,9 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 10;
 }
 
 .feature-list .link {
@@ -157,6 +226,11 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
+
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200;
+  border: 1px solid transparent;
 }
 
 /* Кнопки на странице Портфолио */
